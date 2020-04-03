@@ -14,3 +14,13 @@ Solution Summary: Issue with shared cache, enter the command `sudo update_dyld_s
 Solution URL: https://www.quora.com/Why-is-the-preview-window-in-the-Mac-Finder-so-slow
 Status: Tentative Solved
 --------
+# An example issue for testing
+ID: 2
+Title: Some Title Could Go Here # This is not a valid comment
+Date Filed: 2020-04-03T12:32:30-0700
+Observed on: MacPro6,1 / MacOS 10.13.6
+Keywords: "MacOS", "High Sierra", "Finder", "Quicklook", "Slow", "Preview"
+Google Query: "finder slow to render image preview"
+Solution Summary: Issue with shared cache, enter the command `sudo update_dyld_shared_cache -force` then reboot
+Solution URL: https://www.quora.com/Why-is-the-preview-window-in-the-Mac-Finder-so-slow
+Status: Tentative Solved
