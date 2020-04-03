@@ -1,0 +1,16 @@
+# Fields are separated with newlines
+# Lines beginning with # are comments
+# A line containing eight dashes then a newline is used to break records
+# The first ": " on each line indicates the field name, field value separator
+# Lines containing only whitespace are ignored
+
+ID: 1
+Title: MacOS Slow Finder Quicklook Previews
+Date Filed: 2020-04-03T12:32:30-0600
+Observed on: MacPro6,1 / MacOS 10.13.6
+Keywords: "MacOS", "High Sierra", "Finder", "Quicklook", "Slow", "Preview"
+Google Query: "finder slow to render image preview"
+Solution Summary: Issue with shared cache, enter the command `sudo update_dyld_shared_cache -force` then reboot
+Solution URL: https://www.quora.com/Why-is-the-preview-window-in-the-Mac-Finder-so-slow
+Status: Tentative Solved
+--------
