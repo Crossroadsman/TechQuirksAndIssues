@@ -14,7 +14,6 @@ Solution Summary: Issue with shared cache, enter the command `sudo update_dyld_s
 Solution URL: https://www.quora.com/Why-is-the-preview-window-in-the-Mac-Finder-so-slow
 Status: Tentative Solved
 --------
-# An example issue for testing
 ID: 2
 Title: Raspberry Pi 4 Slow Wifi with HDMI video > 1920x1080
 Date Filed: 2020-05-27T11:32:30-0700
