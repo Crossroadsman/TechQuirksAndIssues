@@ -16,11 +16,11 @@ Status: Tentative Solved
 --------
 # An example issue for testing
 ID: 2
-Title: Some Title Could Go Here # This is not a valid comment
-Date Filed: 2020-04-03T12:32:30-0700
-Observed on: MacPro6,1 / MacOS 10.13.6
-Keywords: "MacOS", "High Sierra", "Finder", "Quicklook", "Slow", "Preview"
-Google Query: "finder slow to render image preview"
-Solution Summary: Issue with shared cache, enter the command `sudo update_dyld_shared_cache -force` then reboot
-Solution URL: https://www.quora.com/Why-is-the-preview-window-in-the-Mac-Finder-so-slow
+Title: Raspberry Pi 4 Slow Wifi with HDMI video > 1920x1080
+Date Filed: 2020-05-27T11:32:30-0700
+Observed on: Raspberry Pi 4 Model B Rev 1.1 / Raspbian GNU/Linux 10 (buster) / Kernel 4.19.97-v7l+ / Bootloader 1.20190925 (September 2019)
+Keywords: "Raspberry Pi 4", "Wifi", "HDMI", "Slow", "Interference"
+Google Query: "raspberry pi 4 slow wifi"
+Solution Summary: Issue with interference when using HDMI at higher than HD resolution and wifi. Either disconnect display, reduce resolution, or set wifi to 5GHz or at least channel 4 on 2.4GHz
+Solution URL: https://www.zdnet.com/article/raspberry-pi-4-wi-fi-problem-firmware-update-will-fix-your-screen-resolution-bug/
 Status: Tentative Solved
