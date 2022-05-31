@@ -9,7 +9,7 @@ Title: MacOS Slow Finder Quicklook Previews
 Date Filed: 2020-04-03T12:32:30-0600
 Observed on: MacPro6,1 / MacOS 10.13.6
 Keywords: "MacOS", "High Sierra", "Finder", "Quicklook", "Slow", "Preview"
-Google Query: "finder slow to render image preview"
+Google Query: "finder slow to render image preview"https://github.com/Crossroadsman/TechQuirksAndIssues/edit/master/issues.txt
 Solution Summary: Issue with shared cache, enter the command `sudo update_dyld_shared_cache -force` then reboot
 Solution URL: https://www.quora.com/Why-is-the-preview-window-in-the-Mac-Finder-so-slow
 Status: Tentative Solved
@@ -23,3 +23,23 @@ Google Query: "raspberry pi 4 slow wifi"
 Solution Summary: Issue with interference when using HDMI at higher than HD resolution and wifi. Either disconnect display, reduce resolution, or set wifi to 5GHz or at least channel 4 on 2.4GHz
 Solution URL: https://www.zdnet.com/article/raspberry-pi-4-wi-fi-problem-firmware-update-will-fix-your-screen-resolution-bug/
 Status: Tentative Solved
+--------
+ID: 3
+Title: Enable Windows 10-style Ribbon File Explorer on Windows 11
+Date Filed: 2022-05-31T13:50:30-0700
+Observed on: 2022 Razer Blade 17 / Windows 11 Home version 21H2 Build 22000.675 Experience Windows Feature Experience Pack 1000.22000.675.0
+Keywords: "Windows 11", "Windows 10", "File Explorer", "Ribbon"
+Google Query: "windows 11 photos app open multiple photos from explorer in filename order site:answers.microsoft.com"
+Solution Summary: Change registry key as follows: `reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked" /v "{e2bf9676-5f8f-435c-97eb-11607a5bedf7}" /t REG_SZ` (revert as follows: `reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked" /f`)
+Solution URL: https://www.youtube.com/watch?v=QmE9fUq0Fao&t=4s
+Status: To be tested
+--------
+ID: 4
+Title: Enable Windows 10-style Explorer Context Menu on Windows 11
+Date Filed: 20222-05-31T13:58:30-0700
+Observed on: 2022 Razer Blade 17 / Windows 11 Home version 21H2 Build 22000.675 Experience Windows Feature Experience Pack 1000.22000.675.0
+Keywords: "Windows 11", "Windows 10", "Explorer", "Context Menu"
+Google Query: N/A
+Solution Summary: Change registry key as follows: `reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve` (revert as follows: `reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f`)
+Solution URL: https://www.youtube.com/watch?v=Wo0ejMk8GXc
+Status: To be tested
